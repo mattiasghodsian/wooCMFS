@@ -15,7 +15,7 @@ function wooCMFS() {
     // add fields
     $array = [
         [
-            'type' => 'text', # text, textarea, select, radio
+            'type' => 'text',
             'attr' => [ # any woocommerce attribute
                 'id' => '_demo_text',
                 'placeholder' => 'Lorem ipsum dolor sit amet',
@@ -36,12 +36,12 @@ function wooCMFS() {
 }
 ```
 
-***NOTE: All data inside attr come from woocommerce docs ***
+*** NOTE: All data inside attr come from woocommerce docs ***
 
 Example for Text input
 ```php
 [
-    'type' => 'text', # text, textarea, select, radio
+    'type' => 'text',
     'attr' => [ # any woocommerce attribute
         'id' => '_demo_text',
         'placeholder' => 'Lorem ipsum dolor sit amet',
@@ -56,7 +56,7 @@ Example for Text input
 Example for Number input
 ```php
 [
-    'type' => 'text', # text, textarea, select, radio
+    'type' => 'text'
     'attr' => [ # any woocommerce attribute
         'id' => '_demo_number',
         'placeholder' => '1337',
@@ -67,14 +67,13 @@ Example for Number input
             'min' => '0'
         ]
     ]
-    # https://docs.woocommerce.com/wc-apidocs/function-woocommerce_wp_text_input.html
 ]
 ```
 
 Example for Textarea
 ```php
 [
-    'type' => 'textarea', # text, textarea
+    'type' => 'textarea',
     'attr' => [ # any woocommerce attribute
         'id' => '_demo_description',
         'placeholder' => 'Lorem ipsum dolor sit amet',
@@ -87,7 +86,7 @@ Example for Textarea
 Example for Select
 ```php
 [
-    'type' => 'select', # text, textarea, select, radio
+    'type' => 'select', 
     'attr' => [ # any woocommerce attribute
         'id' => '_demo_select',
         'label' => __('Demo Select', 'woocommerce'),
@@ -104,7 +103,7 @@ Example for Select
 Example for Radio
 ```php
 [
-    'type' => 'radio', # text, textarea, select, radio
+    'type' => 'radio',
     'attr' => [ # any woocommerce attribute
         'id' => '_demo_radio',
         'label' => __('Demo Radio', 'woocommerce'),
@@ -120,7 +119,7 @@ Example for Radio
 Example for Checkbox
 ```php
 [
-    'type' => 'checkbox', # text, textarea, select, radio, checkbox
+    'type' => 'checkbox',
     'attr' => [ # any woocommerce attribute
         'id' => '_demo_checkbox', 
         'label' => __('Demo checkbox', 'woocommerce' ), 
@@ -135,7 +134,7 @@ Example for Checkbox
 Example for Hidden
 ```php
 [
-    'type' => 'hidden', # text, textarea, select, radio, checkbox
+    'type' => 'hidden',
     'attr' => [ # any woocommerce attribute
         'id' => '_demo_hidden',
     ]
