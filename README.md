@@ -1,4 +1,3 @@
-# wp_theme_settings
 **This class Simplifys adding fields to woocommer product data meta**
 
 ![Extras](https://imgur.com/wCZsxfW.png)
